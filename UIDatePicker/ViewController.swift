@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         // DatePicker 모드 설종
         myDatePicker.datePickerMode = UIDatePicker.Mode.date
     }
-    
+    //
     @IBAction func changeDatePicker(_ sender: Any) {
         let selectedData = myDatePicker.date
         print(selectedData)
